@@ -19,7 +19,7 @@ class Navigation extends React.Component {
 	        <NavDropdown eventKey={3} title="Language" id="basic-nav-dropdown">
 	          <MenuItem eventKey={3.1}>Español</MenuItem>
 	          <MenuItem eventKey={3.2}>English</MenuItem>
-	          <MenuItem eventKey={3.3}>Deutsche</MenuItem>
+	          <MenuItem eventKey={3.3}>Deutsch</MenuItem>
 	          <MenuItem divider />
 	          <MenuItem eventKey={3.3}>Others</MenuItem>
 	        </NavDropdown>
