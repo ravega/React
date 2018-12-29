@@ -25,7 +25,7 @@ class Navigation extends React.Component {
 	        </NavDropdown>
 	      </Nav>
 	      <NavItem eventKey={2} href="#">
-	        Log in
+          Log in
 	      </NavItem>
 	    </Nav>
 	  </Navbar.Collapse>

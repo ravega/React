@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navigation from './Navigation';
 import BookList from './BookList';
 import Menu from './Menu';
 import './bookstore.css';
@@ -28,16 +27,13 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Navigation/>
-        <div className="container">
-	        <h1>Book store</h1>
-	        <br></br>
-	        <Menu save={this.saveBook.bind(this)}/>
-	        <br></br>
-	        <hr></hr>
-	        <BookList books={this.state.books} remove={this.deleteBook.bind(this)}/>
-        </div>
+      <div className="container">
+	      <h1>Book store</h1>
+	      <br></br>
+	      <Menu save={this.saveBook.bind(this)}/>
+	      <br></br>
+	      <hr></hr>
+	      <BookList books={this.state.books} remove={this.deleteBook.bind(this)}/>
       </div>
     );
   }
